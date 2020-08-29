@@ -4,8 +4,8 @@ const Logo = (props) => {
   return (
     <img
       alt="Logo"
-      src="/static/logo.svg"
-      style={{ height: '40px' }}
+      src="/static/devitools.svg"
+      style={{ width: '40%', margin: '0 auto', display: 'block' }}
       {...props}
     />
   );

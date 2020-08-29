@@ -21,10 +21,32 @@ const useStyles = makeStyles(() => createStyles({
     a: {
       textDecoration: 'none'
     },
+    hr: {
+      margin: '20px 0',
+      border: '0',
+      height: '1px',
+      'background-image': 'linear-gradient(to right, rgba(220, 220, 220, 0.4) 0%, '
+        + ' rgba(220, 220, 220, 0.8) 20%, #ddd 50%, rgba(220, 220, 220, 0.8) 80%, '
+        + ' rgba(220, 220, 220, 0.4) 100%)'
+    },
     '#root': {
       height: '100%',
       width: '100%'
     }
+    /*
+    hr {
+      margin: 20px 0;
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(220, 220, 220, 0.4) 0%,
+      rgba(220, 220, 220, 0.8) 2%, #ddd 50%, rgba(220, 220, 220, 0.8) 98%,
+      rgba(220, 220, 220, 0.4) 100%);
+
+      &.light, &[light] {
+        margin: 10px 0;
+      }
+    }
+    */
   }
 }));
 
